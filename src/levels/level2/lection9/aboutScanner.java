@@ -1,7 +1,5 @@
 package levels.level2.lection9;
 
-
-
 import java.util.Scanner;
 
 public class aboutScanner {
@@ -38,7 +36,7 @@ public class aboutScanner {
     public static void method_three(){
 
         Scanner sc = new Scanner(System.in);
-      System.out.println("Дарова чучело, вводи число");
+        System.out.println("Дарова чучело, вводи число");
 
         if (sc.hasNextInt()) {
             int number = sc.nextInt();
@@ -46,6 +44,11 @@ public class aboutScanner {
         } else {
             System.out.println("Извините, но это не число, перезагрузи прогу и попробуй снова");
         }
+
+        //После использования Scanner, его надо закрывать с помощью close();
+        // чтобы не тратить память
+
+        sc.close(); //вот так, теперь всё чётко
 
     }
 
