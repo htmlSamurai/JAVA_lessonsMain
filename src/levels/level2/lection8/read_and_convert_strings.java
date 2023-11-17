@@ -13,9 +13,10 @@ public class read_and_convert_strings {
 
         int first = console.nextInt();
         int second = console.nextInt();
-        int three = console.nextInt(); // dsa
+        int three = console.nextInt();
 
         System.out.println( (first + second + three) / 3 );
         System.out.println("NEW DATA");
+        System.out.println("NEW DATA2");
     }
 }
