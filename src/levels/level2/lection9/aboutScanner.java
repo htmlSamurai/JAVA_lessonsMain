@@ -11,6 +11,7 @@ public class aboutScanner {
 
         method_one();
         method_second();
+        method_three();
 
     }
 
@@ -32,7 +33,20 @@ public class aboutScanner {
         int number = sc.nextInt(); //
 
         System.out.println("Спасибо! Вы ввелим число " + number);
-        System.out.println("Спасибо! Вы ввелим число " + number);
+    }
+
+    public static void method_three(){
+
+        Scanner sc = new Scanner(System.in);
+      System.out.println("Дарова чучело, вводи число");
+
+        if (sc.hasNextInt()) {
+            int number = sc.nextInt();
+            System.out.println("Спасибо вы ввели число " + number);
+        } else {
+            System.out.println("Извините, но это не число, перезагрузи прогу и попробуй снова");
+        }
+
     }
 
 }
