@@ -23,40 +23,28 @@ package levels.level4.lection4;
 public class task_whiles_treugolnik {
     public static void main(String[] args) {
 
-        int z = 0;
+        int height = 0; //высота
 
-       while (z < 20){
-           z++;
-           System.out.print("Z");
+        while (height < 10){ // Цикл по высоте, пока высота меньше 10
+            int width = 0;
 
-           int v = 10;
-           while (v > 0 && ( z == 10  ) ){
-               v--;
-               System.out.println();
+            while (width < 20){ //Цикл по ширине, пока ширина меньше  20
+                if ( height == 0 || height == 9 || width == 0 || width == 19) {
+                    // Если находимся на грани прямоугольника, то
+                    // выводим букву 'Б' с помощью System.out.print('Б').
+                    System.out.print("Б");
+                } else {
+                    // В остальных случаях (внутри прямоугольника), выводим пробел
+                    // с помощью System.out.print(' ').
+                    System.out.print(" ");
+                }
+                width++;
+            }
+            System.out.println(); // Переходим на новую строку после завершения каждой строки.
+            height++; // Увеличиваем счетчик строк для перехода к следующей строке.
 
-               int s = 0;
-               while (s < 1){
+        }
 
-                   s++;
-
-                   int k = 0;
-                   while (k < 10){
-                       k++;
-
-                   }
-               }
-               System.out.print("S");
-
-
-              // System.out.print(" ");
-
-           }
-
-
-          //  System.out.println("S");
-
-           System.out.print("V");
-       }
 
         }
     }
