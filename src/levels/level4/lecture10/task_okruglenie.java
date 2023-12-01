@@ -18,7 +18,8 @@ public class task_okruglenie {
         double result = metr_sec * 3.6;
 
         int main = (int) Math.round(result) ;
-        System.out.println(main);
+       System.out.println(main);
+
+        }
 
     }
-}
