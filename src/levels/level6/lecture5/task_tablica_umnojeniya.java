@@ -20,6 +20,5 @@ public class task_tablica_umnojeniya {
             }
             System.out.println();
         }
-        System.out.println(Arrays.deepToString(MULTIPLICATION_TABLE));
     }
 }
