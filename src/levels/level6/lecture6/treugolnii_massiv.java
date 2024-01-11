@@ -24,7 +24,8 @@ public class treugolnii_massiv {
                 result[i ][j] = i+j; //result[i].length - 1;
                 System.out.print(result[i][j] + " ");
             }
-
+//https://javarush.com/groups/posts/mnogomernye-massivy
+            //
 System.out.println();
 
 
