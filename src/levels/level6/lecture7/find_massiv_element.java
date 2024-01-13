@@ -47,6 +47,10 @@ int lv_count_plus = 0;
         System.out.println(Arrays.toString(copy_po_vozrostaniy));
         System.out.println(Arrays.toString(copy_po_ubivaniy));
 
+        for (int i = 1; i <= 1 ; i++) {
+            System.out.println(copy_po_vozrostaniy[i]);
+        }
+
       //  System.out.println(lv_min_value);
 
 
