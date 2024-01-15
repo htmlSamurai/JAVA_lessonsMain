@@ -35,8 +35,11 @@ public class methods_one {
             element_number = 0;
         }
 
-        for (int j : copy){
-            System.out.print(j + ", ");
+        for (int j = 0; j < array.length; j++){ //: copy){
+            array[j] = copy[j];
+        }
+        for(int q : array){
+            System.out.print(q + ", ");
         }
         System.out.println();
         //System.out.println(Arrays.toString(copy));
